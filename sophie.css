@@ -1,0 +1,173 @@
+.content--intro .content__inner {
+  background: black;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #f5e6e6 ;
+}
+
+body {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+  }
+
+h1,h2,h3,h4,ul,li {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+body, p {
+    font-family: 'Source Sans Pro';
+}
+
+.title {
+  padding-top:50px;
+}
+
+.contact {
+    background-color: #e6f4f5;
+}
+
+.bio {
+    background-color: #f5d28c ;
+}
+
+.home {
+    background-color: #f5e6e6 ;
+    height: 850px;
+}
+
+i.fa.fa-bars {
+    color: white;
+    font-size: 34px;
+}
+
+.topnav {
+  left: 20px;
+    overflow: hidden;
+    position: fixed;
+    width: 200px;
+    z-index: 22;
+}
+
+a.enter {
+  margin-top: 50px;
+}
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* .topnav #myLinks {
+    padding: 57px 0 0 0;
+    display: none;
+    z-index: 22;
+    text-align: right;
+  } */
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(255, 255, 255);
+    /* padding: 6px 5px; */
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    /* background: black; */
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 22;
+  }
+  
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    width: 90px;
+    background-color: #ffffff;
+  }
+  
+  /* li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  } */
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .mycontent {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.triplecol {
+    display: flex;
+}
+
+.col {
+    width: 33.33333%;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .triplecol {
+    display: block;
+}
+
+  .col {
+    width: 100%;
+    padding: 20px;
+}
+}
+
+video#svid1, video#svid2, video#svid3 {
+    max-width: 100%;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+
+
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
